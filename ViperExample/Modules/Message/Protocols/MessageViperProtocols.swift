@@ -15,6 +15,8 @@ public protocol MessageInteractorOutputProtocol: AnyObject {
 public protocol MessageRouterProtocol: AnyObject {
     static func createModule() -> UIViewController
     
+    func goTo(view nextView: UIViewController, from preView: UIViewController)
+    
 }
 //MARK: -  MessageInteractorInputProtocol
 
@@ -45,4 +47,5 @@ public protocol MessagePresenterProtocol: AnyObject {
     
     func loadInitialMessage(withName name: String)
     
+    func goToModuleRegister()
 }

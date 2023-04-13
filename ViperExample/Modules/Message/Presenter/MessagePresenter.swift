@@ -12,4 +12,9 @@ public class MessagePresenter: MessagePresenterProtocol {
         interactor?.requestMessage(withName: name)
     }
     
+    public func goToModuleRegister() {
+        guard let moduleView = view as? MessageViewController else { return  }
+        let nextView = RegisterRouter.createModule()
+        route?.goTo(view: nextView, from: moduleView)
+    }
 }

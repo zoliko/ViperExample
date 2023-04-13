@@ -5,7 +5,7 @@ import UIKit
 typealias MessagePresenterProtocols = MessagePresenterProtocol & MessageInteractorOutputProtocol
 
 public class MessageRouter: MessageRouterProtocol {
-    
+
     public static func createModule() -> UIViewController {
         
     // Obtenemos la instancia
@@ -27,5 +27,10 @@ public class MessageRouter: MessageRouterProtocol {
         moduleView.presenter?.interactor?.presenter = presenter
         return moduleView
     }
+    
+    public func goTo(view nextView: UIViewController, from preView: UIViewController) {
+        preView.present(nextView, animated: true)
+    }
+    
     
 }

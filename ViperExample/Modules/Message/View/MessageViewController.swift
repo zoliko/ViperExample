@@ -17,6 +17,6 @@ class MessageViewController: UIViewController {
     }
 
     @IBAction func goToRegisterAction(_ sender: UIButton) {
-        // aqui mandaremos  a llamar el nuevo modulo
+        presenter?.goToModuleRegister()
     }
 }

@@ -19,6 +19,7 @@
 		0152C2AA29E8558200EA04C5 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152C2A929E8558200EA04C5 /* RegisterPresenter.swift */; };
 		0152C2AC29E8558E00EA04C5 /* RegisterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152C2AB29E8558E00EA04C5 /* RegisterEntity.swift */; };
 		0152C2AE29E8559800EA04C5 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152C2AD29E8559800EA04C5 /* RegisterRouter.swift */; };
+		0152C2B029E8747200EA04C5 /* RegisterPresenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152C2AF29E8747200EA04C5 /* RegisterPresenterExtension.swift */; };
 		01E55FCD29E7249D006BCCAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E55FCC29E7249D006BCCAF /* AppDelegate.swift */; };
 		01E55FCF29E7249D006BCCAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E55FCE29E7249D006BCCAF /* SceneDelegate.swift */; };
 		01E55FD129E7249D006BCCAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E55FD029E7249D006BCCAF /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		0152C2A929E8558200EA04C5 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
 		0152C2AB29E8558E00EA04C5 /* RegisterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEntity.swift; sourceTree = "<group>"; };
 		0152C2AD29E8559800EA04C5 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		0152C2AF29E8747200EA04C5 /* RegisterPresenterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenterExtension.swift; sourceTree = "<group>"; };
 		01E55FC929E7249D006BCCAF /* ViperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E55FCC29E7249D006BCCAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01E55FCE29E7249D006BCCAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				0152C2A929E8558200EA04C5 /* RegisterPresenter.swift */,
+				0152C2AF29E8747200EA04C5 /* RegisterPresenterExtension.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				01E55FF029E739C5006BCCAF /* MessageRouter.swift in Sources */,
 				0152C2A629E8552100EA04C5 /* RegisterViewControllerExtension.swift in Sources */,
 				01E55FD129E7249D006BCCAF /* ViewController.swift in Sources */,
+				0152C2B029E8747200EA04C5 /* RegisterPresenterExtension.swift in Sources */,
 				01E55FCD29E7249D006BCCAF /* AppDelegate.swift in Sources */,
 				01E55FE329E7380F006BCCAF /* MessageViewController.swift in Sources */,
 				0152C2A429E8550900EA04C5 /* RegisterViewController.swift in Sources */,
